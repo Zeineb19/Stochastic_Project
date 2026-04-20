@@ -26,14 +26,31 @@ st.markdown("""
     [data-testid="stSidebar"] {
         background-color: #1A3C6E;
     }
+
+    /* ❗ FIX: avoid killing all text colors */
     [data-testid="stSidebar"] * {
-        color: #FFFFFF !important;
+        color: #FFFFFF;
     }
+
+    /* Make inputs readable (seed, number input, sliders values) */
+    [data-testid="stSidebar"] input,
+    [data-testid="stSidebar"] textarea {
+        color: #1A3C6E !important;
+        background-color: #FFFFFF !important;
+    }
+
+    /* Labels (keep light blue but visible) */
     [data-testid="stSidebar"] .stSlider label,
     [data-testid="stSidebar"] .stNumberInput label {
         color: #BDD5F0 !important;
         font-size: 0.85rem !important;
     }
+
+    /* Better label handling (general safety fix) */
+    [data-testid="stSidebar"] label {
+        color: #BDD5F0 !important;
+    }
+
     [data-testid="stSidebar"] hr {
         border-color: #2E5FA3 !important;
     }
