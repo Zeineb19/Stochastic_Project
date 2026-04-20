@@ -102,7 +102,7 @@ st.markdown("""
     }
  
     /* Section headers */
-    h1 { color: #1A3C6E !important; font-weight: 700 !important; }
+    h1 { color: #87CEFA !important; font-weight: 700 !important; }
     h2, h3 { color: #1A3C6E !important; font-weight: 600 !important; }
  
     /* Caption */
