@@ -477,7 +477,7 @@ def comparison_charts(s1, s2, s3, wt1, wt2, wt3, ql1, ql2, ql3):
 st.markdown("""
 <div style='background: linear-gradient(90deg, #1A3C6E 0%, #2563A8 100%);
             padding: 1.4rem 2rem; border-radius: 12px; margin-bottom: 1.5rem;'>
-    <h1 style='color: #87CEFA; margin: 0; font-size: 1.7rem;'>
+    <h1 style='color: #BDD5F0; margin: 0; font-size: 1.7rem;'>
         🔷 Queueing Simulation Dashboard
     </h1>
     <p style='color: #BDD5F0; margin: 0.3rem 0 0; font-size: 0.9rem;'>
